@@ -1,0 +1,163 @@
+/***********************************
+BODY
+***********************************/
+
+/* site body */
+
+body {
+	background-color: white;
+	color: #999;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+
+h3 {
+	margin: 0 0 1em 0;
+}
+
+/***********************************
+PAGE PORTFOLIO
+***********************************/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: lightgray;
+}
+
+
+
+/***********************************
+HEADING
+***********************************/
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Changa One', sans-serif;
+	font-size: 3em;
+	margin: -5px 0 0;
+	line-height: 0.8em;
+}
+
+header {
+	background-color: #6ab47b;
+	color: aliceblue;
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 10px 0 0 0;
+	width: 100%;
+}
+
+
+/* heading color */
+
+h1,
+h2 {
+	color: aliceblue;
+}
+
+
+
+/***********************************
+NAVIGATION
+***********************************/
+
+nav {
+	background: #599a68;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	
+}
+
+nav li {
+	display: inline-block;
+}
+
+
+/* nav visited */
+
+nav a,
+nav a:visited {
+	color: aliceblue;
+}
+
+
+/* selected a nav*/
+
+nav a.selected,
+nav a:hover {
+	color: #32673f;
+}
+
+
+/* anchor color */
+
+a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+
+
+/***********************************
+FOOTER
+***********************************/
+
+footer {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+	clear: both;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+
+
+/***********************************
+ABOUT
+***********************************/
+
+.profile-photo{
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+		
+}
+.contact-info a {
+	color: darkcyan;
+}
